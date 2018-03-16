@@ -1,0 +1,10 @@
+Feature: User Add employee 
+Scenario: User add new employee in the Employee List
+
+Given User login to the application
+And User hoover PIM menu and Clicks on tehe Employee list
+When User clicks on the Add button
+And User Add employee by entering all values in the fields
+Then User clicks on the save button.
+And User clicks on the Employee list 
+Then user verify if the name exits 

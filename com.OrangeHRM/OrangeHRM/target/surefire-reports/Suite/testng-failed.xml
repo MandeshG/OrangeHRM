@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <packages>
+      <package name="orangeHRM.stepFiles"/>
+    </packages>
+    <classes>
+      <class name="orangeHRM.stepFiles.addEmployeeSteps"/>
+      <class name="orangeHRM.stepFiles.base"/>
+      <class name="orangeHRM.stepFiles.LoginSteps"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+org.agileware.natural.cucumber.Cucumber.syntaxColorer.tokenStyles.keyword.color=255,0,255
+org.agileware.natural.cucumber.Cucumber.syntaxColorer.tokenStyles.keyword.font=1|Times New Roman|13.8|0|WINDOWS|1|-23|0|0|0|400|0|0|0|0|3|2|1|18|Times New Roman;
+org.agileware.natural.cucumber.Cucumber.syntaxColorer.tokenStyles.stepCondition.color=255,255,0
+org.agileware.natural.cucumber.Cucumber.syntaxColorer.tokenStyles.stepCondition.font=1|Times New Roman|12.0|2|WINDOWS|1|-20|0|0|0|400|-1|0|0|0|3|2|1|18|Times New Roman;
+org.agileware.natural.cucumber.Cucumber.syntaxColorer.tokenStyles.string.color=255,0,255

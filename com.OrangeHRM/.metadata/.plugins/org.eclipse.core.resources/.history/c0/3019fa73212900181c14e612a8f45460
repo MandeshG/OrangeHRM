@@ -1,0 +1,28 @@
+package OrangeHRM.pages;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class AddEmployee {
+	WebDriver driver;
+
+	@FindBy(xpath=".//*[@id='menu_pim_viewEmployeeList']")
+	WebElement EmployeeList;
+	
+	
+	public AddEmployee(WebDriver driver){
+		PageFactory.initElements(driver,this);
+	}
+	
+	
+	public void employeeList(){
+		Actions builder= new Actions(driver);
+	builder.moveToElement(EmployeeList).build().perform();
+	}
+	
+}

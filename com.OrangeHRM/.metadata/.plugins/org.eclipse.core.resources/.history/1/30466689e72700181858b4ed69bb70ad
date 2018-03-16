@@ -1,0 +1,19 @@
+package orangeHRM.stepFiles;
+
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.java.Before;
+
+public class base {
+	
+	WebDriver driver;
+	
+	@Before
+	public void setup(){
+		
+		System.setProperty("webdriver.chrome.driver", "M:\\com.OrangeHRM\\OrangeHRM\\src\\test\java\\Resources\\chromedriver.exe");
+		
+	}
+	
+
+}

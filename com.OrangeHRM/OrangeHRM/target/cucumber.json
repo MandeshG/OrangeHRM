@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5710583503,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "User add new employee in the Employee List",
+        "description": "",
+        "id": "user-add-employee;user-add-new-employee-in-the-employee-list",
+        "after": [
+          {
+            "result": {
+              "duration": 4247096850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 247831100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User login to the application",
+            "match": {
+              "location": "LoginSteps.user_login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2031903559,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User hoover PIM menu and Clicks on tehe Employee list",
+            "match": {
+              "location": "addEmployeeSteps.user_hoover_PIM_menu_and_Clicks_on_the_Employee_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1667486185,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the Add button",
+            "match": {
+              "location": "addEmployeeSteps.user_clicks_on_the_Add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33555,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Add employee by entering all values in the fields",
+            "match": {
+              "location": "addEmployeeSteps.user_Add_employee_by_entering_all_values_in_the_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33949,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the save button.",
+            "match": {
+              "location": "addEmployeeSteps.user_clicks_on_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34344,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Employee list",
+            "match": {
+              "location": "addEmployeeSteps.user_clicks_on_the_Employee_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27633,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify if the name exits",
+            "match": {
+              "location": "addEmployeeSteps.user_verify_if_the_name_exits()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Add employee",
+    "description": "",
+    "id": "user-add-employee",
+    "keyword": "Feature",
+    "uri": "AddEmployee.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4789541832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Log into the account using correct credentials",
+        "description": "",
+        "id": "login-to-the-application;log-into-the-account-using-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 4018395727,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82421936,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login to the application",
+            "match": {
+              "location": "LoginSteps.user_login_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179500055,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the username",
+            "match": {
+              "location": "LoginSteps.user_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149641343,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the password",
+            "match": {
+              "location": "LoginSteps.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 947745083,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Login Button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59996124,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to login to the application",
+            "match": {
+              "location": "LoginSteps.user_is_able_to_login_to_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the Application",
+    "description": "Exisiting  User should be able to login into account using correct credentials",
+    "id": "login-to-the-application",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
